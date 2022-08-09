@@ -1,5 +1,5 @@
 import os
-path = "path"
+path = "./"
 for filename in os.listdir(path):
     f = os.path.join(path,filename)
     if os.path.isfile(f):
